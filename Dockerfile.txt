@@ -1,0 +1,6 @@
+FROM openjdk
+COPY . /app
+WORKDIR /app
+EXPOSE 8080
+RUN javac HelloWorldController.java
+CMD ["java","HelloWorldController"]
