@@ -46,7 +46,7 @@ jobs:
           name: java-app
       
       - name: Login to Azure
-        uses: azure/cloud_user_p_872d06f1@realhandsonlabs.com
+        uses: azure/login@v1
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_030EA599E166483D9E59AF843B47DEBF }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_465C30BDF73840D29545B06305E86A64 }}
