@@ -46,7 +46,7 @@ jobs:
           name: java-app
       
       - name: Login to Azure
-        uses: azure/login@v1
+        uses: azure/actions/login@v1
         with:
           client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_2648478107EB48649FCC71E7E63E538D }}
           tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_8AF57BEFB11D41D7AE5D7E6E01701BC2 }}
